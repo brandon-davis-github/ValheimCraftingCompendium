@@ -1,0 +1,75 @@
+﻿body {
+    background-color: darkslategray;
+    background-image: url(../Resources/Background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.my-col {
+    background: rgba(204, 204, 204, 0.4);
+    border-color: white;
+    border-style: outset;
+    border-radius: 50px;
+    font-family: Norse;
+    color: black;
+    text-align: center;
+    margin: 0px 0px 2rem 0px;
+}
+
+a {
+    font-family: Norse;
+    font-size: 300%;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+
+    a:link, a:visited {
+        color: black;
+    }
+
+        a:visited:hover, a:hover {
+            color: white;
+        }
+
+    a:hover, a:visited, a:link, a:active {
+        text-decoration: none;
+    }
+
+.button {
+    border: solid;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Norse;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    .button:hover {
+        border: solid;
+        border-color: black;
+        background-color: black;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        font-family: Norse;
+        font-weight: bold;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+@font-face {
+    font-family: Norse;
+    src: url(/Resources/Norse.otf);
+}

@@ -1,0 +1,139 @@
+﻿body {
+    background-color: darkslategray;
+    background-image: url(../Resources/Background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.my-col {
+    background: rgba(204, 204, 204, 0.4);
+    border-color: white;
+    border-style: outset;
+    border-radius: 50px;
+    font-family: Norse;
+    color: black;
+    text-align: center;
+    margin: 2rem 0px 2rem 0px;
+}
+
+img {
+    margin: 0px 0px 2rem 1rem;
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    font-family: Norse;
+    font-size: 200%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+a {
+    font-family: Norse;
+    font-size: 300%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+    a:link, a:visited {
+        color: black;
+    }
+
+        a:visited:hover, a:hover {
+            color: white;
+        }
+
+    a:hover, a:visited, a:link, a:active {
+        text-decoration: none;
+    }
+
+.button {
+    border: solid;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Norse;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+    .button:hover {
+        border: solid;
+        border-color: black;
+        background-color: black;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        font-family: Norse;
+        font-weight: bold;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+@font-face {
+    font-family: Norse;
+    src: url(/Resources/Norse.otf);
+}
+
+.search {
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: 20px;
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.search-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    line-height: 20px;
+    transition: width 0.4s linear
+}
+
+.search .search-input {
+    padding: 0 10px;
+    width: 100%;
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear
+}
+
+.search-icon {
+    height: 34px;
+    width: 34px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    font-size: 10px;
+    bottom: 30px;
+    position: relative;
+    border-radius: 5px
+}
+
+    .search-icon:hover {
+        color: white;
+    }
